@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_car_installmant_calculation/views/input_screen_ui.dart';
 import 'package:flutter_car_installmant_calculation/views/splah_screen_ui.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -19,7 +20,7 @@ class _FlutterCarInstallmantCalcylationState extends State<FlutterCarInstallmant
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SplahScreenUi(),
+      home: InputScreenUi(),
       theme: ThemeData(
         textTheme: GoogleFonts.kanitTextTheme(
           Theme.of(context).textTheme,
