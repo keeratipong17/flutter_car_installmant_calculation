@@ -20,7 +20,7 @@ class _FlutterCarInstallmantCalcylationState extends State<FlutterCarInstallmant
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: InputScreenUi(),
+      home: SplahScreenUi(),
       theme: ThemeData(
         textTheme: GoogleFonts.kanitTextTheme(
           Theme.of(context).textTheme,
